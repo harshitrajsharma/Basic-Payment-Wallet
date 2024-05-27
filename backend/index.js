@@ -11,6 +11,11 @@ app.use(express.json());
 
 
 app.use('/api/v1', routeRouter);
+app.get('/', (req, res) => {
+    res.status(200).json({
+        message: "Hello Welcome to Paytm"
+    })
+})
 
 
 app.listen( 3000, ()=>{
