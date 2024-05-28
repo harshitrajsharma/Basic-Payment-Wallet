@@ -20,7 +20,7 @@ export const Appbar = () => {
 
     return <div className=" border-b shadow h-14 flex justify-between px-12">
         <div className="flex flex-col justify-center h-full font-bold">
-            PayTM App
+            Basic Payment Wallet
         </div>
         <div className="flex gap-4">
             <div className="flex flex-col justify-center h-full">
